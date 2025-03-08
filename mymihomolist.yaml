@@ -1,0 +1,21 @@
+# https://mihomo.party/docs/guide/override/yaml
+#DOMAIN：完整域名匹配
+##如：DOMAIN, www.apple.com, Proxy
+##如果请求的域完全匹配，则规则匹配。
+#DOMAIN-SUFFIX：匹配域名后缀
+##如：DOMAIN-SUFFIX, apple.com, Proxy
+##如果请求的域匹配后缀，则规则匹配。例如：apple.com可匹配www.apple.com、itunse.apple.com和apple.com
+#DOMAIN-KEYWORD：域名关键词匹配
+##如：DOMAIN-KEYWORD, apple, Proxy
+##如果请求的域包含关键字，则规则匹配。例如：www.apple.com、itunes.apple.com、apple.com、applemusic.com
+###可选接节点包括：自动选择、香港节点、台湾节点、狮城节点、日本节点、美国节点、韩国节点、手动切换、DIRECT、REJERCT
++rules:
+  - "DOMAIN-SUFFIX,zodgame.xyz,香港节点"
+  - "DOMAIN-SUFFIX,chkaja.com,自动选择"
+  - "DOMAIN-SUFFIX,png8.com,自动选择"
+  #- "DOMAIN-SUFFIX,chkaja.com,自动选择"
+  #- "DOMAIN-SUFFIX,chkaja.com,自动选择"
+  #- "DOMAIN-SUFFIX,chkaja.com,自动选择"
+  #- "DOMAIN-SUFFIX,chkaja.com,自动选择"
+  #- "DOMAIN-SUFFIX,chkaja.com,自动选择"
+  #- "DOMAIN-SUFFIX,chkaja.com,自动选择"
