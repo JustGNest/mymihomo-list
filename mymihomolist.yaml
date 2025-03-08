@@ -1,4 +1,5 @@
 # https://mihomo.party/docs/guide/override/yaml
+##先导入：https://raw.githubusercontent.com/mihomo-party-org/override-hub/main/yaml/ACL4SSR_Online_Full_WithIcon.yaml--排第一个
 #DOMAIN：完整域名匹配
 ##如：DOMAIN, www.apple.com, Proxy
 ##如果请求的域完全匹配，则规则匹配。
