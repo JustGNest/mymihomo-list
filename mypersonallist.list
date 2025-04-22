@@ -1,0 +1,19 @@
+# 内容：我的个性化
+#DOMAIN：完整域名匹配
+##如：DOMAIN, www.apple.com, Proxy
+##如果请求的域完全匹配，则规则匹配。
+#DOMAIN-SUFFIX：匹配域名后缀
+##如：DOMAIN-SUFFIX, apple.com, Proxy
+##如果请求的域匹配后缀，则规则匹配。例如：apple.com可匹配www.apple.com、itunse.apple.com和apple.com
+#DOMAIN-KEYWORD：域名关键词匹配
+##如：DOMAIN-KEYWORD, apple, Proxy
+##如果请求的域包含关键字，则规则匹配。例如：www.apple.com、itunes.apple.com、apple.com、applemusic.com
+#USER-AGENT,Spotify*
+#DOMAIN-KEYWORD,-spotify-
+#DOMAIN-KEYWORD,spotify.com
+#DOMAIN-SUFFIX,pscdn.co
+#DOMAIN-SUFFIX,scdn.co
+#DOMAIN-SUFFIX,spoti.fi
+#DOMAIN-SUFFIX,spotify.com
+#DOMAIN-SUFFIX,spotifycdn.com
+#DOMAIN-SUFFIX,spotifycdn.net
