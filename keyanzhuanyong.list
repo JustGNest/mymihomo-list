@@ -1,0 +1,20 @@
+# 内容：科研专用
+#DOMAIN：完整域名匹配
+##如：DOMAIN, www.apple.com, Proxy
+##如果请求的域完全匹配，则规则匹配。
+#DOMAIN-SUFFIX：匹配域名后缀
+##如：DOMAIN-SUFFIX, apple.com, Proxy
+##如果请求的域匹配后缀，则规则匹配。例如：apple.com可匹配www.apple.com、itunse.apple.com和apple.com
+#DOMAIN-KEYWORD：域名关键词匹配
+##如：DOMAIN-KEYWORD, apple, Proxy
+##如果请求的域包含关键字，则规则匹配。例如：www.apple.com、itunes.apple.com、apple.com、applemusic.com
+#USER-AGENT,Spotify*
+#DOMAIN-KEYWORD,-spotify-
+DOMAIN-KEYWORD,nih.gov, 美国节点
+#DOMAIN,translate.google.com
+#DOMAIN,translate.googleapi.com
+#DOMAIN-SUFFIX,scdn.co
+#DOMAIN-SUFFIX,spoti.fi
+#DOMAIN-SUFFIX,spotify.com
+#DOMAIN-SUFFIX,spotifycdn.com
+#DOMAIN-SUFFIX,spotifycdn.net
